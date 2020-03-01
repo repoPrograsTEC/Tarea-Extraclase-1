@@ -8,7 +8,7 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 
-int main(void) {
+int main() {
     struct sockaddr_in direccionServidor;
     direccionServidor.sin_family = AF_INET;
     direccionServidor.sin_addr.s_addr = INADDR_ANY;
@@ -19,7 +19,7 @@ int main(void) {
     int activado = 1;
     setsockopt(servidor, SOL_SOCKET, SO_REUSEADDR, &activado, sizeof(activado));
 
-    if (bind(servidor, (void*) &direccionServidor, sizeof(direccionServidor)) != 0) {
+    if (bind(servidor, reinterpret_cast<const sockaddr *>(&direccionServidor), sizeof(direccionServidor)) != 0) {
         perror("Falló el bind");
         return 1;
     }
@@ -31,7 +31,7 @@ int main(void) {
 
     struct sockaddr_in direccionCliente;
     unsigned int tamanoDireccion;
-    int cliente = accept(servidor, (void*) &direccionCliente, &tamanoDireccion);
+    int cliente = accept(servidor, reinterpret_cast<sockaddr *>(&direccionCliente), &tamanoDireccion);
 
     printf("Recibí una conexión en %d!!\n", cliente);
     send(cliente, "Hola NetCat!", 13, 0);
@@ -39,7 +39,7 @@ int main(void) {
 
     //------------------------------
 
-    char* buffer = malloc(1000);
+    char* buffer = static_cast<char *>(malloc(1000));
 
     while (1) {
         int bytesRecibidos = recv(cliente, buffer, 1000, 0);
