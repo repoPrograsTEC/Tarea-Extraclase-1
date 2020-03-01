@@ -83,31 +83,31 @@ CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s
 
-CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
-CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/main.cpp"
+CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
+CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o: ../grafo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp"
 
-CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/main.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.i
+CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i
 
-CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/main.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.s
+CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s
 
 # Object files for target Tarea_Extraclase__1
 Tarea_Extraclase__1_OBJECTS = \
 "CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o" \
 "CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o" \
-"CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o"
+"CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o"
 
 # External object files for target Tarea_Extraclase__1
 Tarea_Extraclase__1_EXTERNAL_OBJECTS =
 
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o
-Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o
+Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/build.make
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Tarea_Extraclase__1"

@@ -177,32 +177,32 @@ Servidor.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s
 .PHONY : Servidor.cpp.s
 
-main.o: main.cpp.o
+grafo.o: grafo.cpp.o
 
-.PHONY : main.o
+.PHONY : grafo.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o
-.PHONY : main.cpp.o
+grafo.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o
+.PHONY : grafo.cpp.o
 
-main.i: main.cpp.i
+grafo.i: grafo.cpp.i
 
-.PHONY : main.i
+.PHONY : grafo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.i
-.PHONY : main.cpp.i
+grafo.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i
+.PHONY : grafo.cpp.i
 
-main.s: main.cpp.s
+grafo.s: grafo.cpp.s
 
-.PHONY : main.s
+.PHONY : grafo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.s
-.PHONY : main.cpp.s
+grafo.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s
+.PHONY : grafo.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... Servidor.o"
 	@echo "... Servidor.i"
 	@echo "... Servidor.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... grafo.o"
+	@echo "... grafo.i"
+	@echo "... grafo.s"
 .PHONY : help
 
 

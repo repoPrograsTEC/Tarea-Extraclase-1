@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o"
   "CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o"
-  "CMakeFiles/Tarea_Extraclase__1.dir/main.cpp.o"
+  "CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o"
   "Tarea_Extraclase__1"
   "Tarea_Extraclase__1.pdb"
 )
