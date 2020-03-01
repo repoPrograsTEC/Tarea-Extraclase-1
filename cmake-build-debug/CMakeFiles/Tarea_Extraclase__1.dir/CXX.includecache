@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/esteban/CLionProjects/Tarea Extraclase #1/Cliente.cpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+
+/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp
+stdlib.h
+-
+stdio.h
+-
+stdint.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+
+/home/esteban/CLionProjects/Tarea Extraclase #1/main.cpp
+
