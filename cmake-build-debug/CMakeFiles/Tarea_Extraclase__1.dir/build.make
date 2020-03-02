@@ -57,60 +57,75 @@ include CMakeFiles/Tarea_Extraclase__1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tarea_Extraclase__1.dir/flags.make
 
-CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
-CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o: ../Cliente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Cliente.cpp"
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o: ../Recursos/Cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp"
 
-CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Cliente.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.i
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.i
 
-CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Cliente.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.s
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.s
 
-CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
-CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o: ../Servidor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp"
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o: ../Recursos/Servidor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp"
 
-CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.i
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.i
 
-CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s
 
-CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
-CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o: ../grafo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp"
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o: ../Recursos/Grafo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp"
 
-CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.i
 
-CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/grafo.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s
+
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o: CMakeFiles/Tarea_Extraclase__1.dir/flags.make
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o: ../Recursos/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o -c "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.cpp"
+
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.cpp" > CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.i
+
+CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.cpp" -o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.s
 
 # Object files for target Tarea_Extraclase__1
 Tarea_Extraclase__1_OBJECTS = \
-"CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o" \
-"CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o" \
-"CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o"
+"CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o" \
+"CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o" \
+"CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o" \
+"CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o"
 
 # External object files for target Tarea_Extraclase__1
 Tarea_Extraclase__1_EXTERNAL_OBJECTS =
 
-Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o
-Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o
-Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o
+Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o
+Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o
+Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o
+Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/build.make
 Tarea_Extraclase__1: CMakeFiles/Tarea_Extraclase__1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Tarea_Extraclase__1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Tarea_Extraclase__1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tarea_Extraclase__1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

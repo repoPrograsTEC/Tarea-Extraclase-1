@@ -5,32 +5,63 @@
 #include <iostream>
 #include <queue>
 #include <vector>
-#define MAXV 100 // Maxima cantidad de vertices.
-#define oo 0x3f3f3f3f // Nuestro valor infinito.
+
+#define MAXV 100            // Maxima cantidad de vertices.
+#define oo 0x3f3f3f3f       // Nuestro valor infinito.
 using namespace std;
 
-
-struct Edge{
-    int node; // El nodo destino de la arista.
-    int cost; // El costo de la arista.
-    Edge(int _node, int _cost) : node(_node), cost(_cost) {} // Constructor parametrizado.
-    Edge() : node(-1), cost(-1) {} // Constructor por defecto.
+//************************************************//
+class Edge {
+public:
+    int node;            // El nodo destino de la arista.
+    int cost;            // El costo de la arista.
+    Edge(int, int);      // Constructor parametrizado.
+    Edge();              // Constructor por defecto.
 };
 
-struct Graph{
-    vector<Edge> G[MAXV]; // Lista de adyacencias.
-    int V{}; // Cantidad de vertices.
-    int E{}; // Cantidad de aristas.
+Edge :: Edge(int _node, int _cost){
+    node = _node;
+    cost = _cost;
+}
+
+Edge :: Edge(){
+    node = -1;
+    cost = -1;
+}
+
+//************************************************//
+
+//************************************************//
+class Graph {
+public:
+    vector<Edge> G[MAXV];       // Lista de adyacencias.
+    int V{};                    // Cantidad de vertices.
+    int E{};                    // Cantidad de aristas.
 };
 
-struct State{
-    int node; // El nodo actual.
-    int cost; // El costo del camino.
-    State(int _node, int _cost) : node(_node), cost(_cost) {} // Constructor parametrizado.
-    bool operator <(const State &b) const { // Sobrecarga del operador de prioridad <.
-        return cost > b.cost;
-    }
+//************************************************//
+
+//************************************************//
+
+class State{
+public:
+    int node;                                    // El nodo actual.
+    int cost;                                    // El costo del camino.
+    State(int, int);                             // Constructor parametrizado.
+    bool operator <(const State &b) const ;      // Sobrecarga del operador de prioridad <.
 };
+
+State :: State(int _node, int _cost){
+    node = _node;
+    cost = _cost;
+}
+
+bool State::operator<(const State &b) const {
+    return cost > b.cost;
+}
+
+//************************************************//
+
 
 int algoritmo(const int begin, const int end, const Graph graph){
     priority_queue<State> pq; // La cola de prioridad.
@@ -58,44 +89,55 @@ int algoritmo(const int begin, const int end, const Graph graph){
     return -1; // Si no se puede llegar al destino, retornar -1.
 }
 
-struct Programa{
+
+//************************************************//
+
+class Programa{
+public:
     int V, E;
     int comienzo, fin;
-    void definirGrafo(Graph& graph){
-        cout << "Ingrese Cantidad de Vertices: " << endl;
-        cin >> V;
-        cout << "Ingrese Cantidad de Aristas: " << endl;
-        cin >> E;
-
-        graph.V = V;
-        graph.E = E;
-    }
-
-    void cargarGrafo(Graph & graph){
-        for (int i = 0; i < E; ++i){
-            int Origen = 0, Destino = 0, Peso = 0;
-            cout << "Ingrese Origen: " << endl;
-            cin >> Origen;
-            cout << "Ingrese Destino: " << endl;
-            cin >> Destino;
-            cout << "Ingrese Peso de la Arista: " << endl;
-            cin >> Peso;
-
-            // Insertamos la arista dos veces, ya que nuestro grafo es un grafo no dirigido.
-            graph.G[Origen].emplace_back(Destino, Peso);
-            graph.G[Destino].emplace_back(Origen, Peso);
-        }
-    }
-
-    void Dijkstra(Graph graph){
-        cout << "Ingrese Vertice Inicial: " << endl;
-        cin >> comienzo;
-        cout << "Ingrese Vertice Final: " << endl;
-        cin >> fin;
-        int n = algoritmo(comienzo, fin, graph);
-        cout << "Longitud del Camino mas Corto: " << n << endl;
-    }
+    void definirGrafo(Graph& graph);
+    void cargarGrafo(Graph & graph);
+    void Dijkstra(Graph graph);
 };
+
+void Programa:: definirGrafo(Graph& graph){
+    cout << "Ingrese Cantidad de Vertices: " << endl;
+    cin >> V;
+    cout << "Ingrese Cantidad de Aristas: " << endl;
+    cin >> E;
+
+    graph.V = V;
+    graph.E = E;
+}
+
+void Programa :: cargarGrafo(Graph & graph){
+    for (int i = 0; i < E; ++i){
+        int Origen = 0, Destino = 0, Peso = 0;
+        cout << "Ingrese Origen: " << endl;
+        cin >> Origen;
+        cout << "Ingrese Destino: " << endl;
+        cin >> Destino;
+        cout << "Ingrese Peso de la Arista: " << endl;
+        cin >> Peso;
+
+        // Insertamos la arista dos veces, ya que nuestro grafo es un grafo no dirigido.
+        graph.G[Origen].emplace_back(Destino, Peso);
+        graph.G[Destino].emplace_back(Origen, Peso);
+    }
+}
+
+void Programa :: Dijkstra(Graph graph){
+    cout << "Ingrese Vertice Inicial: " << endl;
+    cin >> comienzo;
+    cout << "Ingrese Vertice Final: " << endl;
+    cin >> fin;
+    int n = algoritmo(comienzo, fin, graph);
+    cout << "Longitud del Camino mas Corto: " << n << endl;
+}
+
+//************************************************//
+
 
 int main(){
     bool out = false;

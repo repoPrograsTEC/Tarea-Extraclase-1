@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o  -o Tarea_Extraclase__1 
+/usr/bin/c++  -g   CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o  -o Tarea_Extraclase__1 

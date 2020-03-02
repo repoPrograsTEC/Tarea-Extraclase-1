@@ -123,86 +123,113 @@ Tarea_Extraclase__1/fast:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/build
 .PHONY : Tarea_Extraclase__1/fast
 
-Cliente.o: Cliente.cpp.o
+Recursos/Cliente.o: Recursos/Cliente.cpp.o
 
-.PHONY : Cliente.o
-
-# target to build an object file
-Cliente.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.o
-.PHONY : Cliente.cpp.o
-
-Cliente.i: Cliente.cpp.i
-
-.PHONY : Cliente.i
-
-# target to preprocess a source file
-Cliente.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.i
-.PHONY : Cliente.cpp.i
-
-Cliente.s: Cliente.cpp.s
-
-.PHONY : Cliente.s
-
-# target to generate assembly for a file
-Cliente.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Cliente.cpp.s
-.PHONY : Cliente.cpp.s
-
-Servidor.o: Servidor.cpp.o
-
-.PHONY : Servidor.o
+.PHONY : Recursos/Cliente.o
 
 # target to build an object file
-Servidor.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.o
-.PHONY : Servidor.cpp.o
+Recursos/Cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o
+.PHONY : Recursos/Cliente.cpp.o
 
-Servidor.i: Servidor.cpp.i
+Recursos/Cliente.i: Recursos/Cliente.cpp.i
 
-.PHONY : Servidor.i
+.PHONY : Recursos/Cliente.i
 
 # target to preprocess a source file
-Servidor.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.i
-.PHONY : Servidor.cpp.i
+Recursos/Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.i
+.PHONY : Recursos/Cliente.cpp.i
 
-Servidor.s: Servidor.cpp.s
+Recursos/Cliente.s: Recursos/Cliente.cpp.s
 
-.PHONY : Servidor.s
+.PHONY : Recursos/Cliente.s
 
 # target to generate assembly for a file
-Servidor.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Servidor.cpp.s
-.PHONY : Servidor.cpp.s
+Recursos/Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.s
+.PHONY : Recursos/Cliente.cpp.s
 
-grafo.o: grafo.cpp.o
+Recursos/Grafo.o: Recursos/Grafo.cpp.o
 
-.PHONY : grafo.o
+.PHONY : Recursos/Grafo.o
 
 # target to build an object file
-grafo.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.o
-.PHONY : grafo.cpp.o
+Recursos/Grafo.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o
+.PHONY : Recursos/Grafo.cpp.o
 
-grafo.i: grafo.cpp.i
+Recursos/Grafo.i: Recursos/Grafo.cpp.i
 
-.PHONY : grafo.i
+.PHONY : Recursos/Grafo.i
 
 # target to preprocess a source file
-grafo.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.i
-.PHONY : grafo.cpp.i
+Recursos/Grafo.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.i
+.PHONY : Recursos/Grafo.cpp.i
 
-grafo.s: grafo.cpp.s
+Recursos/Grafo.s: Recursos/Grafo.cpp.s
 
-.PHONY : grafo.s
+.PHONY : Recursos/Grafo.s
 
 # target to generate assembly for a file
-grafo.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/grafo.cpp.s
-.PHONY : grafo.cpp.s
+Recursos/Grafo.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s
+.PHONY : Recursos/Grafo.cpp.s
+
+Recursos/Graph.o: Recursos/Graph.cpp.o
+
+.PHONY : Recursos/Graph.o
+
+# target to build an object file
+Recursos/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o
+.PHONY : Recursos/Graph.cpp.o
+
+Recursos/Graph.i: Recursos/Graph.cpp.i
+
+.PHONY : Recursos/Graph.i
+
+# target to preprocess a source file
+Recursos/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.i
+.PHONY : Recursos/Graph.cpp.i
+
+Recursos/Graph.s: Recursos/Graph.cpp.s
+
+.PHONY : Recursos/Graph.s
+
+# target to generate assembly for a file
+Recursos/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.s
+.PHONY : Recursos/Graph.cpp.s
+
+Recursos/Servidor.o: Recursos/Servidor.cpp.o
+
+.PHONY : Recursos/Servidor.o
+
+# target to build an object file
+Recursos/Servidor.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o
+.PHONY : Recursos/Servidor.cpp.o
+
+Recursos/Servidor.i: Recursos/Servidor.cpp.i
+
+.PHONY : Recursos/Servidor.i
+
+# target to preprocess a source file
+Recursos/Servidor.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.i
+.PHONY : Recursos/Servidor.cpp.i
+
+Recursos/Servidor.s: Recursos/Servidor.cpp.s
+
+.PHONY : Recursos/Servidor.s
+
+# target to generate assembly for a file
+Recursos/Servidor.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s
+.PHONY : Recursos/Servidor.cpp.s
 
 # Help Target
 help:
@@ -213,15 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Tarea_Extraclase__1"
 	@echo "... edit_cache"
-	@echo "... Cliente.o"
-	@echo "... Cliente.i"
-	@echo "... Cliente.s"
-	@echo "... Servidor.o"
-	@echo "... Servidor.i"
-	@echo "... Servidor.s"
-	@echo "... grafo.o"
-	@echo "... grafo.i"
-	@echo "... grafo.s"
+	@echo "... Recursos/Cliente.o"
+	@echo "... Recursos/Cliente.i"
+	@echo "... Recursos/Cliente.s"
+	@echo "... Recursos/Grafo.o"
+	@echo "... Recursos/Grafo.i"
+	@echo "... Recursos/Grafo.s"
+	@echo "... Recursos/Graph.o"
+	@echo "... Recursos/Graph.i"
+	@echo "... Recursos/Graph.s"
+	@echo "... Recursos/Servidor.o"
+	@echo "... Recursos/Servidor.i"
+	@echo "... Recursos/Servidor.s"
 .PHONY : help
 
 
