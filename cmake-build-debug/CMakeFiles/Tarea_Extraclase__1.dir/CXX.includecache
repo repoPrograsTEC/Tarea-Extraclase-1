@@ -6,23 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp
-iostream
--
-queue
--
-vector
--
-fstream
--
-array
--
-
-/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/prueba.cpp
-iostream
--
-queue
--
-vector
--
-

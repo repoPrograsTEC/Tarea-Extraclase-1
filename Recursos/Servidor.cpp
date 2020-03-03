@@ -51,6 +51,10 @@ int main() {
 
         buffer[bytesRecibidos] = '\0';
         printf("Me llegaron %d bytes con %s\n", bytesRecibidos, buffer);
+
+        bool out = false;
+        char salir;
+
     }
 
     free(buffer);

@@ -7,6 +7,11 @@
 #include <vector>
 #include <fstream>  // Libreria para archivos
 #include <array>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
 
 #define MAXV 100            // Maxima cantidad de vertices.
 #define oo 0x3f3f3f3f       // Nuestro valor infinito.
@@ -74,7 +79,7 @@ public:
     void definirGrafo(Graph& graph, int, int);
     void cargarGrafo(Graph & graph, int, int, int);
     int algoritmo(int, int, const Graph&);
-    void Dijkstra(const Graph& graph);
+    void Dijkstra(const Graph &graph, int, int);
     static vector<string> split (string, string);
 };
 
@@ -124,12 +129,14 @@ int Programa :: algoritmo(const int begin, const int end, const Graph& graph){
     return -1;
 }
 
-void Programa :: Dijkstra(const Graph& graph){
+void Programa :: Dijkstra(const Graph& graph, int temp, int temp2){
+    /*
     cout << "Ingrese Vertice Inicial: " << endl;
     cin >> comienzo;
     cout << "Ingrese Vertice Final: " << endl;
     cin >> fin;
-    int n = algoritmo(comienzo, fin, graph);  //Accediendo al algoritmo de Dijkstra
+    */
+    int n = algoritmo(temp, temp2, graph);  //Accediendo al algoritmo de Dijkstra
     if (n > 0){
         cout << "El valor de la ruta es: " + to_string(n) << endl;
     } else {
@@ -138,7 +145,6 @@ void Programa :: Dijkstra(const Graph& graph){
     }
 }
 
-// for string delimiter
 vector<string> Programa :: split (string s, string delimiter) {
     size_t pos_start = 0, pos_end, delim_len = delimiter.length();
     string token;
@@ -227,7 +233,7 @@ void escribirArchivo(){
 
 //************************************************//
 
-
+/*
 int main(){
     bool out = false;
     char salir;
@@ -248,4 +254,89 @@ int main(){
             out = true;
         }
     }
+}
+*/
+
+
+int main() {
+    struct sockaddr_in direccionServidor;
+    direccionServidor.sin_family = AF_INET;
+    direccionServidor.sin_addr.s_addr = INADDR_ANY;
+    direccionServidor.sin_port = htons(8080);
+
+    int servidor = socket(AF_INET, SOCK_STREAM, 0);
+
+    int activado = 1;
+    setsockopt(servidor, SOL_SOCKET, SO_REUSEADDR, &activado, sizeof(activado));
+
+    if (bind(servidor, reinterpret_cast<const sockaddr *>(&direccionServidor), sizeof(direccionServidor)) != 0) {
+        perror("Falló el bind");
+        return 1;
+    }
+
+    printf("Estoy escuchando\n");
+    listen(servidor, 100);
+
+    //------------------------------
+
+    struct sockaddr_in direccionCliente;
+    unsigned int tamanoDireccion;
+    int cliente = accept(servidor, reinterpret_cast<sockaddr *>(&direccionCliente), &tamanoDireccion);
+
+    printf("Recibí una conexión en %d!!\n", cliente);
+    send(cliente, "Hola NetCat!", 13, 0);
+    send(cliente, ":)\n", 4, 0);
+
+    //------------------------------
+
+    char* buffer = static_cast<char *>(malloc(1000));
+    int i = 0 ;
+    int temp;
+    int temp2;
+    while (1) {
+        int bytesRecibidos = recv(cliente, buffer, 1000, 0);
+        if (bytesRecibidos <= 0) {
+            perror("El chabón se desconectó o bla.");
+            return 1;
+        }
+
+        buffer[bytesRecibidos] = '\0';
+        printf("Me llegaron %d bytes con %s\n", bytesRecibidos, buffer);
+        if (i == 0){
+            temp = *buffer;
+            i++;
+        } else if (i == 1){
+            temp2 = *buffer;
+            i = 0;
+            Programa programa{}; //TAD
+            Graph graph; // Grafo.
+
+            cout << endl << "Algoritmo de Dijkstra en C++" << endl;
+
+            bool out = false;
+            char salir;
+
+
+            while (!out) {
+                lecturaArchivo(graph);
+                programa.Dijkstra(graph, temp, temp2); //Se aplica el algoritmo de Dijkstra
+
+               break;
+                /*
+                //Desea Salir?
+                cout << "Salir? (S/N)" << endl;
+                cin >> salir;
+                if (salir == 'S') {
+                    out = true;
+                }
+                 */
+            }
+        }
+
+    }
+
+    free(buffer);
+
+    return 0;
+
 }

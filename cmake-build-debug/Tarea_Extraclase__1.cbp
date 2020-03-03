@@ -96,9 +96,6 @@
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/grafo.txt">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>
-		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/prueba.cpp">
-			<Option target="Tarea_Extraclase__1"/>
-		</Unit>
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

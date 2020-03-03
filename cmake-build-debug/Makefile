@@ -204,33 +204,6 @@ Recursos/Servidor.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s
 .PHONY : Recursos/Servidor.cpp.s
 
-Recursos/prueba.o: Recursos/prueba.cpp.o
-
-.PHONY : Recursos/prueba.o
-
-# target to build an object file
-Recursos/prueba.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.o
-.PHONY : Recursos/prueba.cpp.o
-
-Recursos/prueba.i: Recursos/prueba.cpp.i
-
-.PHONY : Recursos/prueba.i
-
-# target to preprocess a source file
-Recursos/prueba.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.i
-.PHONY : Recursos/prueba.cpp.i
-
-Recursos/prueba.s: Recursos/prueba.cpp.s
-
-.PHONY : Recursos/prueba.s
-
-# target to generate assembly for a file
-Recursos/prueba.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.s
-.PHONY : Recursos/prueba.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +222,6 @@ help:
 	@echo "... Recursos/Servidor.o"
 	@echo "... Recursos/Servidor.i"
 	@echo "... Recursos/Servidor.s"
-	@echo "... Recursos/prueba.o"
-	@echo "... Recursos/prueba.i"
-	@echo "... Recursos/prueba.s"
 .PHONY : help
 
 

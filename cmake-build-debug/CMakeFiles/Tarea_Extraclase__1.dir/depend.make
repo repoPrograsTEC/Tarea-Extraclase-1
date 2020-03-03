@@ -7,5 +7,3 @@ CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o: ../Recursos/Grafo.cpp
 
 CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o: ../Recursos/Servidor.cpp
 
-CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.o: ../Recursos/prueba.cpp
-
