@@ -87,9 +87,6 @@
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>
-		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp">
-			<Option target="Tarea_Extraclase__1"/>
-		</Unit>
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>

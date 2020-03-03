@@ -150,33 +150,6 @@ Recursos/Cliente.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.s
 .PHONY : Recursos/Cliente.cpp.s
 
-Recursos/Grafo.o: Recursos/Grafo.cpp.o
-
-.PHONY : Recursos/Grafo.o
-
-# target to build an object file
-Recursos/Grafo.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o
-.PHONY : Recursos/Grafo.cpp.o
-
-Recursos/Grafo.i: Recursos/Grafo.cpp.i
-
-.PHONY : Recursos/Grafo.i
-
-# target to preprocess a source file
-Recursos/Grafo.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.i
-.PHONY : Recursos/Grafo.cpp.i
-
-Recursos/Grafo.s: Recursos/Grafo.cpp.s
-
-.PHONY : Recursos/Grafo.s
-
-# target to generate assembly for a file
-Recursos/Grafo.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s
-.PHONY : Recursos/Grafo.cpp.s
-
 Recursos/Servidor.o: Recursos/Servidor.cpp.o
 
 .PHONY : Recursos/Servidor.o
@@ -216,9 +189,6 @@ help:
 	@echo "... Recursos/Cliente.o"
 	@echo "... Recursos/Cliente.i"
 	@echo "... Recursos/Cliente.s"
-	@echo "... Recursos/Grafo.o"
-	@echo "... Recursos/Grafo.i"
-	@echo "... Recursos/Grafo.s"
 	@echo "... Recursos/Servidor.o"
 	@echo "... Recursos/Servidor.i"
 	@echo "... Recursos/Servidor.s"
