@@ -3,4 +3,4 @@ project(Tarea_Extraclase__1)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Tarea_Extraclase__1 Recursos/Cliente.cpp Recursos/Servidor.cpp Recursos/Grafo.cpp)
+add_executable(Tarea_Extraclase__1 Recursos/Cliente.cpp Recursos/Servidor.cpp Recursos/Grafo.cpp Recursos/grafo.txt Recursos/prueba.cpp)

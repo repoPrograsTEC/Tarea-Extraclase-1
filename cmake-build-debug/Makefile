@@ -177,33 +177,6 @@ Recursos/Grafo.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.s
 .PHONY : Recursos/Grafo.cpp.s
 
-Recursos/Graph.o: Recursos/Graph.cpp.o
-
-.PHONY : Recursos/Graph.o
-
-# target to build an object file
-Recursos/Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o
-.PHONY : Recursos/Graph.cpp.o
-
-Recursos/Graph.i: Recursos/Graph.cpp.i
-
-.PHONY : Recursos/Graph.i
-
-# target to preprocess a source file
-Recursos/Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.i
-.PHONY : Recursos/Graph.cpp.i
-
-Recursos/Graph.s: Recursos/Graph.cpp.s
-
-.PHONY : Recursos/Graph.s
-
-# target to generate assembly for a file
-Recursos/Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.s
-.PHONY : Recursos/Graph.cpp.s
-
 Recursos/Servidor.o: Recursos/Servidor.cpp.o
 
 .PHONY : Recursos/Servidor.o
@@ -231,6 +204,33 @@ Recursos/Servidor.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.s
 .PHONY : Recursos/Servidor.cpp.s
 
+Recursos/prueba.o: Recursos/prueba.cpp.o
+
+.PHONY : Recursos/prueba.o
+
+# target to build an object file
+Recursos/prueba.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.o
+.PHONY : Recursos/prueba.cpp.o
+
+Recursos/prueba.i: Recursos/prueba.cpp.i
+
+.PHONY : Recursos/prueba.i
+
+# target to preprocess a source file
+Recursos/prueba.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.i
+.PHONY : Recursos/prueba.cpp.i
+
+Recursos/prueba.s: Recursos/prueba.cpp.s
+
+.PHONY : Recursos/prueba.s
+
+# target to generate assembly for a file
+Recursos/prueba.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Extraclase__1.dir/build.make CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.s
+.PHONY : Recursos/prueba.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,12 +246,12 @@ help:
 	@echo "... Recursos/Grafo.o"
 	@echo "... Recursos/Grafo.i"
 	@echo "... Recursos/Grafo.s"
-	@echo "... Recursos/Graph.o"
-	@echo "... Recursos/Graph.i"
-	@echo "... Recursos/Graph.s"
 	@echo "... Recursos/Servidor.o"
 	@echo "... Recursos/Servidor.i"
 	@echo "... Recursos/Servidor.s"
+	@echo "... Recursos/prueba.o"
+	@echo "... Recursos/prueba.i"
+	@echo "... Recursos/prueba.s"
 .PHONY : help
 
 

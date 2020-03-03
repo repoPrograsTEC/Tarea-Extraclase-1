@@ -6,29 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/esteban/CLionProjects/Tarea Extraclase #1/Cliente.cpp
-stdlib.h
+/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp
+iostream
 -
-stdio.h
+queue
 -
-string.h
+vector
 -
-arpa/inet.h
+fstream
 -
-sys/socket.h
--
-
-/home/esteban/CLionProjects/Tarea Extraclase #1/Servidor.cpp
-stdlib.h
--
-stdio.h
--
-stdint.h
--
-arpa/inet.h
--
-sys/socket.h
+array
 -
 
-/home/esteban/CLionProjects/Tarea Extraclase #1/main.cpp
+/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/prueba.cpp
+iostream
+-
+queue
+-
+vector
+-
 

@@ -6,8 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp" "/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Cliente.cpp.o"
   "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp" "/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Grafo.cpp.o"
-  "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.cpp" "/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Graph.cpp.o"
   "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp" "/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles/Tarea_Extraclase__1.dir/Recursos/Servidor.cpp.o"
+  "/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/prueba.cpp" "/home/esteban/CLionProjects/Tarea Extraclase #1/cmake-build-debug/CMakeFiles/Tarea_Extraclase__1.dir/Recursos/prueba.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

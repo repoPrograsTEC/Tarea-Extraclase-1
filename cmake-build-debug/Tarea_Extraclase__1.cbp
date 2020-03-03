@@ -87,19 +87,16 @@
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Cliente.cpp">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>
-		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Edge.h">
-			<Option target="Tarea_Extraclase__1"/>
-		</Unit>
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Grafo.cpp">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>
-		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.cpp">
-			<Option target="Tarea_Extraclase__1"/>
-		</Unit>
-		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Graph.h">
-			<Option target="Tarea_Extraclase__1"/>
-		</Unit>
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/Servidor.cpp">
+			<Option target="Tarea_Extraclase__1"/>
+		</Unit>
+		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/grafo.txt">
+			<Option target="Tarea_Extraclase__1"/>
+		</Unit>
+		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/Recursos/prueba.cpp">
 			<Option target="Tarea_Extraclase__1"/>
 		</Unit>
 		<Unit filename="/home/esteban/CLionProjects/Tarea Extraclase #1/CMakeLists.txt">

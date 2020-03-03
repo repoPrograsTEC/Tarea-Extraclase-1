@@ -8,6 +8,7 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 
+/*
 int main() {
     struct sockaddr_in direccionServidor;
     direccionServidor.sin_family = AF_INET;
@@ -56,3 +57,4 @@ int main() {
 
     return 0;
 }
+*/
